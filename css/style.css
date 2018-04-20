@@ -1,1 +1,368 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Roboto Condensed",sans-serif;
+}
+h3 {
+    margin: 0;
+}
+#fitness-menu {
+    float: right;
+}
+#fitness-menu li {
+    margin: 0 2px;
+    font-size: 16px;
+}
+#fitness-menu li a {
+    color: #fff;
+}
+#fitness-menu li:hover {
+    background-color: blue;
+}
+.navbar-header a p {
+    margin: 0;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.fitness-top-nav {
+    margin: 0;
+    padding: 15px;
+    background-color: #212121;
+}
 
+#home-cover {
+    background-image: url(../img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#home {
+    height: 100%;
+}
+#home-heading-1 {
+    background-color: blue;
+    color: #fff;
+    width: 280px;
+    padding: 10px;
+}
+#home-heading-2 {
+    background-color: #212121;
+    color: #fff;
+    width: 450px;
+    padding: 18px;
+}5#home-heading-2 h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+#home-heading-3 {
+    background-color: #212121;
+    color: #fff;
+    width: 380px;
+    padding: 10px;
+}
+#home-heading-3 h3 {
+    font-size: 30px;
+}
+#home-content-box {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.home-content {
+    margin-left: 60px;
+    margin-top: 4px;
+}
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+#welcome {
+    margin: 50px 0;
+}
+#welcome-header {
+    margin: 30px 0 15px 0;
+}
+#welcome-header h3 {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+#welcome-header p {
+    color: #AAAAAA;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+#blue {
+    color: blue;
+}
+.row {
+    padding: 0 50px;
+    margin-top: 30px;
+}
+.welcome-content i {
+    color: blue;
+    font-size: 30px;
+    float: left;
+    margin-right: 20px;
+}
+.welcome-content h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+.welcome-content p {
+    color: #AAAAAA;
+    text-align: justify;
+    font-size: 18px;
+}
+.col-md-3 {
+        padding: 10px;
+}
+#trainers {
+    background-image: url("../img/bg-collage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#trainers-heading h3 {
+    color: #fff;
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.underline {
+    width: 70px;
+    height: 3px;
+    background-color: #AAAAAA;
+    margin: 0 auto 30px auto;
+}
+#trainers-wrapper {
+    background-color: rgba(0,0,0,0.9);
+}
+#our-trainers img {
+    width: 250px;
+    height: 350px;
+    
+}
+.thumbnail {
+    padding: 0;
+}
+.caption {
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+#partners .img-responsive {
+    width: 300px;
+    height: 320px;
+}
+#gallery-wrapper {
+    margin: 30px 0;
+}
+#gallery-heading h3 {
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: -2px;
+}
+#gallery-heading .underline {
+    margin-top: 10px;
+}
+#gallery-heading p {
+    color: #AAAAAA;
+    padding: 0 80px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#gallery-wrapper .row {
+    margin: 0 80px;
+}
+#gallery-wrapper .row .col-md-3 {
+    height: 200px;
+    overflow: hidden;
+}
+.img-wrapper img {
+    width: 300px;
+    height: 200px;
+}
+#pricing {
+    background-color:blue;
+}
+#pricing-heading {
+    margin-bottom: 70px;
+}
+#pricing-wrapper {
+    background-color: rgba(255,255,255,0.1);
+    padding: 80px 0;
+}
+#pricing-heading h3 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.pricing-box {
+    background-color: rgba(0,0,0,0.05);
+    color: #fff;
+    padding: 20px 0;
+}
+.pricing-left {
+    float: left;
+    margin: 0 20px;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid #fff;
+}
+.pricing-right ul {
+    list-style: none;
+    text-align: left;
+    list-style-image: url();
+    font-size: 15px;
+    padding: 0;
+}
+.pricing-right i {
+    float: left;
+    margin-right: 10px;
+}
+.pricing-title {
+    font-weight: bold;
+    margin: 20px 0;
+}
+.pricing-value {
+    font-weight: bold;
+    font-size: 40px;
+}
+.pricing-value sup {
+    font-weight: normal;
+    font-size: 25px;
+}
+.container {
+    padding: 0;
+    margin: 0;
+}
+.pricing-right {
+    padding-top: 20px;
+}
+#special-pricing {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+#partners-heading h3 {
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 30px;
+    margin: 30px 0 10px 0;
+}
+#partners-list .col-md-2 img {
+    height: 100px;
+    margin: 0 10px;
+    padding: 10px;
+    align-content: center;
+}
+#partners {
+    margin: 50px 0;
+}
+#contact {
+    background-color: #000;
+    color: #fff;
+    background-image: url(../img/contact-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contact-wrapper {
+    background-color: rgba(0,0,0,0.85);
+}
+#social-icons i {
+    margin: 0 5px;
+    margin-top: 26px;
+    float: right;
+    font-size: 18px;
+}
+#social-icons {
+    margin-right: 20px;
+}
+#info {
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+#info p {
+    margin: 0;
+    padding: 0 50px;
+    color: #AAAAAA;
+}
+#info i {
+    float: left;
+    margin: 5px 15px;
+}
+.clear {
+    clear: both;
+}
+#contact-lower {
+    border-top: 0.5px solid #AAAAAA;
+    padding-bottom: 20px;
+}
+#contact-lower .col-md-6 h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+#contact-lower p {
+    font-size: 15px;
+    color: #AAAAAA;
+    margin-bottom: 20px;
+}
+#contact-lower .row {
+    padding-left: 15px;
+    padding-right: 0;
+}
+#contact-lower input {
+    background-color: transparent;
+    border: 1px solid #AAAAAA;
+    padding: 10px;
+    font-size: 15px;
+    width: 200px;
+}
+#contact-lower .col-md-4 {
+    padding: 0 5px;
+    width: auto;
+}
+#contact-lower textarea {
+    width: 410px;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 15px;
+}
+#contact-lower .col-md-8 {
+    padding: 0 5px;
+    width: auto;
+}
+#contact-submit-btn {
+    background-color: blue!important;
+    border: 0!important;
+}
+#contact-submit p {
+    margin-top: 15px;
+}
+#footer-wrapper {
+    background-color: rgba(0,0,0,0.85);
+    padding: 20px;
+    color: #AAAAAA;
+}
+#footer-wrapper p {
+    margin: 0;
+    display: inline;
+}
+#footer-wrapper a {
+    float: right;
+    color: blue;
+    text-decoration: underline;
